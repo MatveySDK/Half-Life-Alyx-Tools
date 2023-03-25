@@ -1,0 +1,71 @@
+"config"
+{
+	"bindings"
+	{
+		"1"		"give_me_pistol; slot2"
+		"2"		"give_me_shotgun; slot4"
+
+		"a"		"+iv_left"
+		"d"		"+iv_right"
+		"e"		"+iv_use; getPlayerPositionExtraAction"
+		"f"		"toggle_flashlight"
+		"p"		"pause"
+		"q"		"lastinv"
+		"r"		"+iv_reload"
+		"s"		"+iv_back"
+		"w"		"+iv_forward"
+		"t"		"+iv_moveup"
+		"v"		"+iv_movedown"
+		"`"		"toggleconsole"
+
+		"SEMICOLON"	"inv_cycle -1"
+		"'"		"inv_cycle 1"
+		"SPACE"		"jumpfixed"
+		"TAB"		"toggle stats_display"
+
+		"SHIFT"		"+run"
+		"RSHIFT"	"+run"
+		"CTRL"		"+crouch"
+		"RCTRL"		"+crouch"
+
+		"UPARROW"	"+iv_turnup"
+		"LEFTARROW"	"+iv_turnleft"
+		"DOWNARROW"	"+iv_turndown"		
+		"RIGHTARROW"	"+iv_turnright"
+
+		"MOUSE1"	"+iv_attack"
+		"MOUSE2"	"+iv_attack2"
+		"MOUSE3"	"+iv_zoom"
+		"MWHEELUP"	"invprev"
+		"MWHEELDOWN"	"invnext"
+		
+		"L_SHOULDER"	"toggle_duck"
+		"R_SHOULDER"	"+iv_lookspin"
+		"L_TRIGGER"	"+iv_attack2"
+		"R_TRIGGER"	"+iv_attack"
+		"A_BUTTON"	"+iv_jump"
+		"B_BUTTON"	"+iv_reload"
+		"X_BUTTON"	"+iv_use"
+		"Y_BUTTON"	"lastinv"
+		"UP"		"impulse 100"
+		"LEFT"		"slot3"
+		"RIGHT"		"slot4"
+		"DOWN"		"slot5"
+
+		"F1"		"map startup"
+		"F2"		"save 0.sav"
+		"F3"		"load 0"
+
+		"CAPSLOCK"	"noclip"
+	}
+	
+	"analogbindings"
+	{
+		"X_AXIS"	"iv_rightleft"	
+		"Y_AXIS"	"!iv_forwardback"
+		"MOUSE_X"	"iv_yaw"
+		"MOUSE_Y"	"iv_pitch"
+		"U_AXIS"	"iv_yaw"
+		"R_AXIS"	"iv_pitch"
+	}
+}
